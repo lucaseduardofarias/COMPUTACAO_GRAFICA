@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{144377e4-e915-4645-a9cb-2170b78cf5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\core">
+      <UniqueIdentifier>{a385c29a-17a6-49db-8114-65941d6252aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{c07b1ae7-55d0-49be-9644-978d57188870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\data">
+      <UniqueIdentifier>{8f0e50d6-3e6b-4557-ba45-06df5ade403c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\system">
+      <UniqueIdentifier>{636b6c2f-d8e0-4999-ac2e-882ca4d3631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\utils">
+      <UniqueIdentifier>{d9146e35-454e-4da7-8eb3-b52ed7ca3fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\data">
+      <UniqueIdentifier>{a1953c38-dbe8-4e20-9e0e-6986a8abe456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\system">
+      <UniqueIdentifier>{697c24e8-34ac-4c17-a410-f4a860d55d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\utils">
+      <UniqueIdentifier>{62545f90-1c40-467e-970b-0a23158c5a1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\data\Face.cpp">
+      <Filter>source files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\data\Group.cpp">
+      <Filter>source files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\data\Mesh.cpp">
+      <Filter>source files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\Shader.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\system\System.cpp">
+      <Filter>source files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Cubo.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\Camera.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\core\vertex.vert">
+      <Filter>shaders\core</Filter>
+    </None>
+    <None Include="shaders\core\fragment.frag">
+      <Filter>shaders\core</Filter>
+    </None>
+    <None Include="shaders\core\fragment_color.frag">
+      <Filter>shaders\core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\data\Face.h">
+      <Filter>header files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Group.h">
+      <Filter>header files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Material.h">
+      <Filter>header files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Mesh.h">
+      <Filter>header files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\Camera.h">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\Shader.h">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\system\Runnable.h">
+      <Filter>header files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\system\System.h">
+      <Filter>header files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Cubo.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

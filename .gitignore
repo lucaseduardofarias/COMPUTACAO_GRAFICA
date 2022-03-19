@@ -1,0 +1,13 @@
+# pastas
+\.vs
+
+# arquivos
+*.exe
+*.pdb
+*.obj
+*.tlog
+*.log
+*.idb
+*.ilk
+*.mtl
+__Texturas/

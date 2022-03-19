@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\system\System.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\Camera.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Cubo.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\data\Face.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\data\Group.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\data\Mesh.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\Shader.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\utils\Camera.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Face.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Cubo.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Group.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Material.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\data\Mesh.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\system\Runnable.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\Shader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\system\System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\core\fragment_color.frag">
+      <Filter>sharders</Filter>
+    </None>
+    <None Include="shaders\core\fragment.frag">
+      <Filter>sharders</Filter>
+    </None>
+    <None Include="shaders\core\vertex.vert">
+      <Filter>sharders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{92635d05-9206-4ffd-8237-27f4c290379b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{848cb37d-621f-4862-b6f6-aeae72901743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sharders">
+      <UniqueIdentifier>{3243e3c7-0471-419d-b038-1163ad19e672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{6abd4c1e-ab1c-41ff-b939-12eb196b768c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
